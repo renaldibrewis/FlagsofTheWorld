@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flag Of Central African Republic</title>
+    <style>
+
+        .flag{
+            border: 10px solid;
+            width: 600px;
+            height: 400px;
+        }
+
+        .red-vertical{
+            width: 100px;
+            height: 400px;
+            background-color: red;
+            position: relative;
+            left: 250px;
+            z-index: 1;
+        }
+
+        .blue{
+            width: 600px;
+            height: 100px;
+            background-color: blue;
+            position: relative;
+            bottom: 400px;
+        }
+
+        .white{
+            width: 600px;
+            height: 100px;
+            background-color: whitesmoke;
+            position: relative;
+            bottom: 400px;
+        }
+
+        .green{
+            width: 600px;
+            height: 100px;
+            background-color: green;
+            position: relative;
+            bottom: 400px;
+        }
+
+        .yellow{
+            width: 600px;
+            height: 100px;
+            background-color: yellow;
+            position: relative;
+            bottom: 400px;
+        }
+
+        .star{
+            font-size: 80px;
+            position: relative;
+            bottom: 810px;
+            left: 50px;
+            color: gold;
+        }
+
+        .letter1{
+            font-size: 50px;
+            position: relative;
+            bottom: 800px;
+            left: 200px;
+            z-index: 1;
+        }
+
+        .letter2{
+            font-size: 50px;
+            position: relative;
+            bottom: 700px;
+            left: 200px;
+            z-index: 1;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="flag">
+        <div class="red-vertical"></div>
+        <div class="blue"></div>
+        <div class="white"></div>
+        <div class="green"></div>
+        <div class="yellow"></div>
+        <span class="star">&#9733;</span>
+        <div class="letter1">The Flag</div>
+        <div class="letter2">of CAR</div>
+    </div>
+</body>
+</html>
