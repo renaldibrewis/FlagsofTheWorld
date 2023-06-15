@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flag of Iceland</title>
+    <style>
+
+        .flag{
+            background-color: rgb(8, 8, 120);
+            width: 600px;
+            border: 10px solid black;
+        }
+
+        .vertical-axis{
+            width: 70px;
+            height: 400px;
+            background-color: white;
+            left: 100px;
+            position: relative;
+        }
+
+        .inner-vertical{
+            width: 50px;
+            height: 400px;
+            background-color: red;
+            position: relative;
+            left: 10px;
+            z-index: 1;
+        }
+
+        .horizontal-axis{
+            width: 600px;
+            height: 70px;
+            background-color: white;
+            top: 150px;
+            position: absolute;
+            z-index: 1;
+        }
+
+        .inner-horizontal{
+            width: 600px;
+            height: 50px;
+            background-color: red;
+            position: relative;
+            top: 10px;
+        }
+
+        .letter1{
+            font-size: 50px;
+            position: absolute;
+            left: 200px;
+            top: 40px;
+            color: white;
+        }
+
+        .letter2{
+            font-size: 50px;
+            position: absolute;
+            top: 180px;
+            left: 200px;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="flag">
+        <div class="horizontal-axis">
+            <div class="inner-horizontal"></div>
+        </div>
+        <div class="vertical-axis">
+            <div class="inner-vertical"></div>
+        </div>
+        <p class="letter1">The Flag</p>
+        <p class="letter2">of Iceland</p>
+    </div>
+</body>
+</html>
